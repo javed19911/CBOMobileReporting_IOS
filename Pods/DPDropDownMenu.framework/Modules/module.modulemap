@@ -1,0 +1,11 @@
+framework module DPDropDownMenu {
+  umbrella header "DPDropDownMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DPDropDownMenu.Swift {
+    header "DPDropDownMenu-Swift.h"
+    requires objc
+}
